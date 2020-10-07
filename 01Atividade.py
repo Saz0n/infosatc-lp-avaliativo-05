@@ -129,7 +129,7 @@ def operaçoes ():
         if escolha == 5:
             print("Operação encerrada")
             caixa = 0
-cadastro()
+
             
 def atualizacao():
     escolha_02=0
@@ -224,7 +224,8 @@ def atualizacao():
 
         if escolha_02 == 5:
             atualização_cadastro= atualização_cadastro + 1
-
+cadastro()
+operaçoes ()
 atualizacao()     
 
 
